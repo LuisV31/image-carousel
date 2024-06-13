@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/carousel.js", // Ensure this path is correct
+  entry: "./src/carousel.js",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
@@ -16,5 +16,5 @@ module.exports = {
       },
     ],
   },
-  mode: "development", // Set the mode to 'development'
+  mode: "development",
 };
